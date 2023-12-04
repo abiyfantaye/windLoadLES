@@ -1,8 +1,8 @@
-# DFSR
+# Wind Load Simulation on a Tall Building using OpenFOAM
 
 [![DOI](https://zenodo.org/badge/300517389.svg)](https://zenodo.org/badge/latestdoi/300517389)
 
-This repository contains sample OpenFOAM simulation cases used in the work of [1]. The repository describes the step-by-step procedure to run a successful LES for evaluating wind loads on tall buildings. For  The inflow boundary condition used for the simulations is based on the DFSR [2] method. The technique uses the spectral representation method to generate ABL-like turbulence with prescribed two-point flow statistics. The code is developed as a utility application using OpenFOAM's framework. DFSR  offers the following key features:
+This repository contains sample OpenFOAM simulation cases used in the work of [1]. The repository describes the step-by-step procedure to run a successful LES for evaluating wind loads on tall buildings. For The inflow boundary condition used for the simulations is based on the DFSR [2] method. The technique uses the spectral representation method to generate ABL-like turbulence with prescribed two-point flow statistics. The code is developed as a utility application using OpenFOAM's framework. DFSR  offers the following key features:
 
 - Capable of running on **unstructured** meshes
 - Uses **LAPACK** subroutine for efficient matrix factorization 
