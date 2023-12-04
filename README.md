@@ -1,4 +1,4 @@
-# Wind Load Simulation on a Tall Building using OpenFOAM
+# Wind Load Simulation on a Tall Building in OpenFOAM
 
 [![DOI](https://zenodo.org/badge/300517389.svg)](https://zenodo.org/badge/latestdoi/300517389)
 
