@@ -56,24 +56,11 @@ C                       (//x	y     z
 //Wind profile sub-dictionary
 windProfile
 {	
-	//read scaling factors for I, L 
-	//that varies with hieght
-	adjustProfile  	off;
-
 	//Factors to scale turbulence intensities and length scale profiles
 	//in each direction helps to account for decay of turbulence  
 	scaleI 		(1.0 1.0 1.0); //Constanta scaling 
 	scaleL		(1.0 1.0 1.0);
 }
-
-//If turned on adjusts the flow field to have
-//a constant mass flow rate
-constFlowRate           on;
-
-//The ratio/portion of the computational domain height 
-//above which the flow rate will be adjusted.
-//default 1: correction applied to the entire inelt plane
-flowRateHeightRatio     0.25;
 
 //Apply div-free corrections or not 
 correctDivergence	off;
