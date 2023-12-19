@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/300517389.svg)](https://zenodo.org/badge/latestdoi/300517389)
 
-This repository contains sample OpenFOAM simulation cases used in the work of [1]. The repository describes the step-by-step procedure to run a successful LES for evaluating wind loads on tall buildings. For The aproaching ABL flow is generated using the DFSR method.
+This repository contains sample OpenFOAM simulation cases used in the work of [1]. The repository describes the step-by-step procedure to run a successful LES for evaluating wind loads on tall buildings using the sythtiic inflow turbulence generated using DFSR [2] method.
 
 ## This Github Page Will Be Updated Soon!!!!
  
